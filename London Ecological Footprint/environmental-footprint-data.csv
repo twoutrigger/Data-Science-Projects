@@ -1,0 +1,49 @@
+Code,Area,Ecological Footprint (gha/capita) - 2004,Carbon Footprint (tonnes CO2/capita) - 2004,GHG Footprint (tonnes CO2eq/capita) - 2004
+00AA,City of London,7.18,15.25,21.15
+00AB,Barking & Dagenham,4.77,10.54,14.44
+00AC,Barnet,5.86,13.02,17.73
+00AD,Bexley,5.32,11.82,16.16
+00AE,Brent,5.02,11.28,15.29
+00AF,Bromley,5.96,13.22,18.05
+00AG,Camden,5.68,12.32,16.95
+00AH,Croydon,5.60,12.40,16.94
+00AJ,Ealing,5.34,11.83,16.14
+00AK,Enfield,5.37,11.94,16.27
+00AL,Greenwich,5.29,11.66,15.98
+00AM,Hackney,4.99,11.12,15.10
+00AN,Hammersmith & Fulham,5.76,12.66,17.30
+00AP,Haringey,5.52,12.32,16.72
+00AQ,Harrow,5.39,12.06,16.41
+00AR,Havering,5.39,12.02,16.39
+00AS,Hillingdon,5.28,11.79,16.08
+00AT,Hounslow,5.26,11.69,15.94
+00AU,Islington,5.67,12.55,17.09
+00AW,Kensington & Chelsea,6.39,13.77,19.01
+00AX,Kingston upon Thames,5.86,12.89,17.65
+00AY,Lambeth,5.50,12.21,16.61
+00AZ,Lewisham,5.34,11.84,16.13
+00BA,Merton,5.69,12.46,17.12
+00BB,Newham,4.51,10.03,13.69
+00BC,Redbridge,5.14,11.44,15.63
+00BD,Richmond upon Thames,6.38,13.99,19.19
+00BE,Southwark,5.19,11.40,15.60
+00BF,Sutton,5.67,12.55,17.17
+00BG,Tower Hamlets,4.79,10.52,14.42
+00BH,Waltham Forest,5.15,11.45,15.62
+00BJ,Wandsworth,5.88,12.92,17.64
+00BK,Westminster,6.25,13.49,18.61
+A,North East,4.83,11.14,15.03
+B,North West,5.21,11.94,16.13
+D,Yorkshire & Humber,5.14,11.94,16.00
+E,East Midlands,5.24,11.99,16.20
+F,West Midlands,5.02,11.53,15.55
+G,East,5.53,12.62,17.03
+H,London,5.48,12.12,16.55
+J,South East,5.63,12.76,17.28
+K,South West,5.42,12.37,16.70
+924,Wales,5.03,11.60,15.66
+923,Scotland,5.34,12.16,16.46
+922,Northern Ireland,4.85,11.18,15.09
+926,UK,5.30,12.08,16.34
+
+,,,,
