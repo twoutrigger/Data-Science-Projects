@@ -1,0 +1,1 @@
+This project predicts if a bank customer will subcribe to a deposit. This project demonstrates proper documentation and basic understanding of basic ML pipeline from preprocessing to evaluating algorithms
