@@ -17,7 +17,10 @@ while not done:
 
     # action = np.random.randint(0, 3)
     # new_state, reward, done, _ = env.step([4 for i in range(200)])
-    new_state, reward, done, _ = env.step(env.action_space.sample())
+    action = env.action_space.sample()
+    action = np.array([0, 1, 0])
+    print(action)
+    new_state, reward, done, _ = env.step(action)
     # print(new_state.shape)
     # print(reward)
 
