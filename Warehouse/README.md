@@ -1,0 +1,1 @@
+This folder contains KPIs that are useful to warehouse and inventory operations.
