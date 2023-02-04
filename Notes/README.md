@@ -1,0 +1,1 @@
+A folder dedicated to useful notes, such as key KPIs, or useful system commands.
