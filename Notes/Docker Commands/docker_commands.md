@@ -41,3 +41,12 @@ Cheat sheet also available here: https://docs.docker.com/get-started/docker_chea
 - docker push <user name/repo name:tage name>
     - To push the local image to Docker Hub
     - Example: docker push twoutrigger/testimagerepo:hubtest
+
+- docker pull <container name>
+    - To pull a container from Docker Hub to the local machine
+
+- docker start <container name>
+    - To start an exited container on the local machine
+
+- docker stop <container name>
+    - To stop a running container on the local machine
