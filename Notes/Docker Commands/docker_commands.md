@@ -13,6 +13,9 @@ Cheat sheet also available here: https://docs.docker.com/get-started/docker_chea
 - docker images --all
     - To see all Docker images
 
+- docker image ls
+    - Same as "docker images --all"
+
 - docker ps
     - To see information on running containers
 
@@ -30,3 +33,11 @@ Cheat sheet also available here: https://docs.docker.com/get-started/docker_chea
 
 - docker login
     - Login to push and pull images from Docker Hub
+
+- docker tag <image name> <user name/repo name:tage name>
+    - To tag an image for pushing to Docker Hub
+    - Example: docker tag testimage twoutrigger/testimagerepo:hubtest
+
+- docker push <user name/repo name:tage name>
+    - To push the local image to Docker Hub
+    - Example: docker push twoutrigger/testimagerepo:hubtest
