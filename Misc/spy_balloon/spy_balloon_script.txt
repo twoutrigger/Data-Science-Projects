@@ -1,0 +1,21 @@
+## Fictitious Python package made up for LinkedIn post
+
+## install the Python package, usually by a state agency
+!pip install spy-balloon
+
+## import the ballon object to collect user information
+from spy_balloon import Balloon
+
+sus_object = Balloon()
+
+sus_object.deploy(type='airborne')
+
+sus_object.route(states=['Alaska', 'Montana', 'North Carolina'])
+
+## rename the balloon for reasons
+sus_object.alias('weather research airship')
+
+## deactivate the balloon
+sus_object.stop(kill_method='F-22')
+
+
