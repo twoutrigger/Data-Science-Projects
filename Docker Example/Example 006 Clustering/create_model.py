@@ -30,7 +30,6 @@ km = KMeans(n_clusters=3, max_iter=2000, algorithm = 'auto')
 km.fit(x)
 
 # print(x[0])
-
 # print(df.head(5))
 
 # print(km.labels_)
@@ -41,3 +40,7 @@ df['label'] = km.labels_
 ## could try silhouette_method to improve grouping
 ## research pickling of data normalization
 print(df.groupby(['label', 10]).size())
+
+pickle_save = 'kmeans.pkl'
+with open(pickle_save, 'wb') as file:
+    pickle.dump(km, file)
