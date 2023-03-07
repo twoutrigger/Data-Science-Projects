@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.cluster import KMeans
+import joblib
 import pickle
 
 df = pd.read_csv('../../Datasets/glass.data', header=None, index_col=0)
@@ -18,6 +19,13 @@ y = df.iloc[:, -1]
 scaler = MinMaxScaler()
 x = scaler.fit_transform(x)
 
+print(type(x))
+print(x[0])
+
+# save minmax scaler for transforming test data
+# scaler_filename = "minmaxscaler.save"
+# joblib.dump(scaler, scaler_filename)
+
 km = KMeans(n_clusters=3, max_iter=2000, algorithm = 'auto')
 km.fit(x)
 
@@ -31,4 +39,5 @@ km.fit(x)
 df['label'] = km.labels_
 
 ## could try silhouette_method to improve grouping
+## research pickling of data normalization
 print(df.groupby(['label', 10]).size())
