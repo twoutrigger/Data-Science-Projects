@@ -21,9 +21,8 @@ def pred_cluster():
     # url_args = [float(i) for i in url_args] ## tbd on feature format
 
     x = [1.52101, 13.64, 4.49, 1.10, 71.78, 0.06, 8.75, 0.00, 0.0]
-    minmaxscaler = joblib.load('minmaxscaler.save') 
-    # x = minmaxscaler.fit_transform(np.array(x,))
-    x = minmaxscaler.fit_transform([x])
+    scaler = joblib.load('minmaxscaler.save') 
+    x = scaler.transform([x])
 
     print(x)
 

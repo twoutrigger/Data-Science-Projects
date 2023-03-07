@@ -19,12 +19,12 @@ y = df.iloc[:, -1]
 scaler = MinMaxScaler()
 x = scaler.fit_transform(x)
 
-print(type(x))
-print(x[0])
+# print(type(x))
+# print(x[0])
 
 # save minmax scaler for transforming test data
-# scaler_filename = "minmaxscaler.save"
-# joblib.dump(scaler, scaler_filename)
+scaler_filename = "minmaxscaler.save"
+joblib.dump(scaler, scaler_filename)
 
 km = KMeans(n_clusters=3, max_iter=2000, algorithm = 'auto')
 km.fit(x)
