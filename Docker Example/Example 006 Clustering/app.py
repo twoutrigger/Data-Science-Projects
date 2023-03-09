@@ -2,6 +2,7 @@ from flask import Flask, request
 import numpy as np
 import joblib
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.cluster import KMeans
 import pickle
 from numpy import array2string
 
@@ -29,12 +30,10 @@ def pred_cluster():
     ## output for minmaxscaler should be:
     ##  [0.43283582, 0.43759398, 1. ,0.25233645, 0.35178571, 0.00966184, 0.30855019, 0., 0.]
 
-    # return array2string(unpickled_model.predict(url_args))
-    return 'test'
+    return array2string(unpickled_model.predict(url_args))
 
     # Example URLs:
     # http://172.20.10.3:5001/pred_cluster?features=1.52101,13.64,4.49,1.10,71.78,0.06,8.75,0.00,0.0
-
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True, port="5001")

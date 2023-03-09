@@ -29,11 +29,8 @@ joblib.dump(scaler, scaler_filename)
 km = KMeans(n_clusters=3, max_iter=2000, algorithm = 'auto')
 km.fit(x)
 
-test = km.predict(x)
-print(test)
-
-# print(x[0])
-# print(df.head(5))
+# pred = km.predict(x)
+# print(pred)
 
 # print(km.labels_)
 # print(len(km.labels_))
@@ -48,7 +45,3 @@ print(df.groupby(['label', 10]).size())
 pickle_save = 'kmeans.pkl'
 with open(pickle_save, 'wb') as file:
     pickle.dump(km, file)
-
-## test out prediction
-# pred = km.predict(x)
-# print(pred)
