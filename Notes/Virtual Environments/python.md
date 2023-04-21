@@ -5,3 +5,5 @@ Referencing guide here: https://realpython.com/python-virtual-environments-a-pri
 Create virtual env - "python -m venv <name of env>"
 Activate virtual env - "<name of env>\Scripts\activate"
 Deactivate virtual env - "deactivate"
+
+Install pip - "python -m pip install --upgrade pip"
